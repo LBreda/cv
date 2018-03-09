@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.1.3, 30 April 2017) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper]{altacv}
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+\setmainfont{Lato}
+
+% Colors
+\definecolor{Blue}{HTML}{2c3e50}
+\definecolor{Red}{HTML}{812d3e}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Blue}
+\colorlet{accent}{Red}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Bullets
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Lorenzo Breda}
+\tagline{Full-Stack Web Developer}
+\photo{2.8cm}{photo}
+\personalinfo{%
+  \email{lorenzo@lbreda.com}
+  \phone{+39\ 3396208225}
+% \mailaddress{Via, 00100}
+  \location{Roma}
+  \homepage{www.lbreda.com}
+  \linkedin{linkedin.com/in/lbreda}
+  \github{github.com/lbreda}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[sidebar_it]{Esperienza professionale
+}
+
+\cvevent{Full stack web developer, PM}{TwoBeeSolution S.r.l.}{Dicembre 2015 -- In corso}{Via Pietro Bembo 36a, 00168 Roma}
+\begin{itemize}
+\item Progettazione e sviluppo di una serie di software per la logistica di costruzione e gestione di linee metropolitane. Tali software sono utilizzati per Roma Metro C, Copenaghen Cityringen, Aarhus Letbane e Riyadh Metro System.
+\item Progettazione e direzione ello sviluppo di un software gestionale per albi professionali e associazioni. Il software si interfaccia con diversi sistemi della Pubblica Amministrazione.
+\item Altri progetti minori in Laravel 5 e NodeJS, amministrazione di piccoli sistemi.
+\end{itemize}
+
+\divider
+
+\cvevent{Webmaster, supporto tecnico}{Istituto Don Calabria}{Aprile 2012 -- Dicembre 2015}{Via Giambattista Soria 13, 00167 Roma}
+\begin{itemize}
+\item Gestione del sito web istituzionale
+\item Supporto tecnico interno
+\end{itemize}
+
+\cvsection{Formazione}
+
+\cvevent{Diploma di maturità scientifica}{LSS Evangelista Torricelli, Rome}{September 2002 -- July 2007}{}
+\begin{itemize}
+\item Ho vinto uno stage presso l'Istituto Nazionale di Fisica Nucleare, durante il quale ho studiato e utilizzato il sistema di simulazione Monte Carlo FLUKA.
+\end{itemize}
+
+\cvsection{Altre esperienze formative}
+Ho studiato Fisica presso Sapienza Università di Roma tra il 2007 e il 2010 con buoni risultati nell'informatica applicata (principalmente C), nella matematica applicata e nella fisica classica.
+
+\smallskip
+
+Sono passato da Fisica a Informatica nel 2010 con buoni risultati nello studio di matematica applicata, architettura degli elaboratori, programmazione a oggetti, database e sistemi operativi. Ho affrontato anche lo studio delle strutture dati e della programmazione funzionale.
+
+\smallskip
+
+Ho lasciato l'università a seguito di un aumento degli impegni lavorativi
+
+\cvsection{Interessi}
+Sono appassionato di sistemi embeded, e sono in grado di progettare applicazioni basate su RaspberryPI e Arduino.
+
+\smallskip
+
+Sono inoltre un buon fotografo hobbista.
+
+\end{document}
